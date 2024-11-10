@@ -2,7 +2,7 @@ print("\t***SUGGESTION PROGRAMS***")
 print("Press 1 for MOVIE SUGGESTION \nPress 2 for CARS SUGGESTION \nPress 3 for PET SUGGESTION\nPress 4 for MOBILE PHONE SUGGESTION")
 choice=eval(input())
 if choice==1:
-    print("MOVIE SUGGESTIOsN")
+    print("MOVIE SUGGESTION")
     category=input("Would you like to watch HOLLYWOOD MOVIES or BOLLYWOOD MOVIES?").lower()
     genre=input("Tell me what genre movie would you like? (Horror/Animation/Action/Sci-Fi)").lower()
     if category=="hollywood" and genre=="action":
